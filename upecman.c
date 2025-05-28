@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
     int elapsed_seconds; /* calcula tempo do jogo */
     /* ----------- INICIO - variaveis de ajuste de FPS */
     struct timeval w0, w1; /* ajusta FPS do jogo -- modo mais simples */
-    long td = 18000; /* time delay - ajuste de FPS */
+    long td = 220000; /* time delay - ajuste de FPS */
     float ofps; /* FPS real -> a ser ajustado para ficar no desejado */
     long dt; /* diff time */
     int deltatd = 1000; /* quanto subtrai por rodada com decaimento */
